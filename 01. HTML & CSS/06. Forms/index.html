@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+   <h1>Form</h1>
+   <fieldset>
+<Legend>Bio Data</Legend>
+    <label for="name">Name:</label>
+    <input type="text" name="name" id="name" minlength="5" maxlength="20" placeholder="Your Name">
+    <br>
+    <label for="roll">Roll:</label>
+    <input type="number" name="roll" id="roll" minlength="2" maxlength="8" placeholder="Enter Roll">
+    <br>
+    <label for="date">Date:</label>
+    <input type="date" name="date" id="date"><br>
+    <label for="gender">Male</label>
+    <input type="radio" name="gender" id="Male" value="Male">
+    <label for="gender">Female</label>
+    <input type="radio" name="gender" id="Female" value="Female">
+    <br>
+    <label for="eligible">Are you Eligible:</label>
+    <input type="checkbox" name="eligible" id="eligible">
+
+   </fieldset>
+   <fieldset>
+    <legend>Contact Info</legend>
+    <label for="Password">Password:</label>
+    <input type="password" name="password" id="password" maxlength="8" minlength="4" >
+<br>
+   <label for="url">URL:</label>
+   <input type="url" name="url" id="url">
+   <br>
+   <label for="comment">Comment:</label>
+   <br>
+   <textarea name="comment" id="comment" placeholder="Enter Your Comment" rows="8" cols="50"></textarea>
+  <br>
+  <label for="car">Car:</label><br>
+   <select name="car" id="car" size="3" multiple="multiple">
+    <option value="Corolla">Corolla</option>
+    <option value="Mehran">Mehran</option>
+    <option value="Swift" selected>Swift</option>
+   </select>
+   <br>
+   <label for="files">Attach File:</label>
+   <input type="file" name="files" id="files">
+   <br>
+   <input type="submit" value="Submit">
+</fieldset>
+
+
+</body>
+</html>
